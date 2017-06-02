@@ -1,0 +1,163 @@
+\documentclass[11pt]{article}
+\setlength{\topmargin}{-1.5cm}
+\setlength{\textheight}{23cm}
+\setlength{\oddsidemargin}{0mm}
+\setlength{\evensidemargin}{0mm}
+\setlength{\textwidth}{17cm}             
+\usepackage{graphicx, color}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{enumerate}
+\usepackage{hyperref}
+
+\newcommand{\noin}{\noindent}    
+
+\newcommand{\Var}{\text{Var}}    
+
+
+\begin{document}
+\noindent {\large  \textbf{Stat 139 Homework 5, Fall 2016}} \medskip
+
+\noindent \textbf{Due Friday, October 28 at 1:39pm}, handed into the course website on Canvas through the ``Assignments'' section of the website.  Be sure to show your work and make sure to give clear, convincing, and succinct explanations.  \textbf{Incorporate the \underline{relevant} R output in the HW write-up}. Choose the output wisely: only the key output should be displayed for each problem and the relevant parts should be \textbf{highlighted} in some way (circled by hand is fine).  
+
+\vspace{0.1in}
+
+\noin \textbf{Collaboration policy (for this and all future homeworks)}: You are encouraged to discuss the problems with other students, but you must write up your solutions yourself and in your own words. Copying someone else's solution, or just making trivial changes is not acceptable. And make sure that you write-up any R-code in your own words.
+
+\vspace{0.2in}
+
+
+\noindent \textbf{Problem 1.} Using the dataset ``textmessages.csv'' from the previous HW, reanalyze the problem of equal number of text messages sent by underclassmen and upperclassmen using a permutation test. You may either reuse the code that was developed in class and section, or use the function \texttt{permTS()} in the R package \texttt{perm}.  Be sure to explicitly state the hypotheses, assumptions, and conclusion for the test (along with providing the empirical reference distribution and p-value).
+
+
+\vspace{0.3in}
+
+
+\noindent {\bf Problem 2.} A study to determine whether a new drug to treat a specific brain tumor was administered to 100 patients.  The old treatment had a standard deviation of 18 months, and the new treatment was thought to have similar variability from patient to patient.  The investigators calculated that their study would have approximately 80\% power if the new drug would lengthen the average survival by 5 months and the individual observations came from a Normal distribution. What would happen to the power of the test, would it go up, down, or stay the same (briefly explain), if:
+
+\vspace{0.1in}
+
+\noindent (a) The study had 200 subjects (instead of the 100 in the original design)?
+
+\vspace{0.1in}
+
+\noindent (b) The new drug improved survival 3 months (instead of the 5 months originally thought).
+
+\vspace{0.1in}
+
+\noindent(c) The standard deviation of survival time for individual patients was actually 24 months (instead of the original 18 months)?
+
+\vspace{0.1in}
+
+\noindent (d) Determine how many observations are needed in order for the study in problem \#1 to truly have 80\% power (your result may not exactly match the number presented here).
+
+\vspace{0.3in}
+
+
+\noindent {\bf Problem 3.} In reality the study in problem \#1 would need to have two different treatment groups in order to prove the new drug increases survival time (with random assignment to groups): one group of patients receiving the new treatment, and the other group, the controls, receiving the old treatment (often labeled as ``standard of care'').   For this two-sample situation (which we will use a $z$-based approach since we are going to assume the true $\sigma$ is known), we can assume the following properties: individual survival times in each group are being sampled from Normal distributions with the same standard deviation ($\sigma$ months in both groups) and a mean difference of $\delta$ months (you can assume the old treatment had an average survival of $\mu$ years).  That is the observed survival times can be thought of as being i.i.d. r.v.s from the following distributions:
+$$Y_{i,trt} \sim N(\mu+\delta,\sigma^2) \text{ and independently }Y_{j,ctrl} \sim N(\mu,\sigma^2).$$
+for $i = 1,2,...,n_{trt}$ and $j= 1,2,...,n_{ctrl}$.
+
+\vspace{0.1in}
+
+\noindent (a) What are the hypotheses?  What will be the sampling distribution of the statistic $(\bar{Y}_{trt} - \bar{Y}_{ctrl})$  under the null hypothesis?  What will it be under the alternative hypothesis?  Determine the $z$-based test statistic for this setting.\\
+Note: the government (FDA) mandates that all clinical trials are to be performed as two-sided tests at the $\alpha = 0.05$  level.
+
+\vspace{0.1in}
+
+\noindent (b) Determine $\delta$ in terms of $n_{trt}, n_{ctrl}, \sigma, z_{1-\alpha/2}, \text{ and } z_{\beta}$ given a desired value of power $= 1-\beta$. \\
+Hint: think about how far the sampling distribution of $(\bar{Y}_{trt} - \bar{Y}_{ctrl})$ under $H_A$ needs to be from the sampling distribution of $(\bar{Y}_{trt} - \bar{Y}_{ctrl})$ under $H_0$ (like in the plot on slide 13 in Unit 7 lecture notes).
+
+\vspace{0.1in}
+
+\noindent (c) Let $n_{trt} = n_{ctl} = n$.  Using your expression in part (b), solve for $n$ (so a total of $2n$ patients are needed for this study).
+
+\vspace{0.1in}
+
+\noindent (d) Using the same conditions as in problem \#1 part (d), determine the total number of patients needed for this 2-treatment study where the number of patients is equal in the two treatment groups.  
+
+\vspace{0.1in}
+
+\noindent (e) Compare the total number of patients needed in part 1(d) and 2(d).  Why does this result make sense?
+
+
+
+\vspace{0.3in}
+
+
+
+\noindent {\bf Problem 4.} You'd like to compare 16 different groups (the different pollsters for presidential polls from HW 3) in voter gap by performing all the possible pairwise $t$-tests.  
+
+\vspace{0.1in}
+
+\noindent (a) Show that the number of pairwise $t$-tests you need to perform is 120?
+
+\vspace{0.1in}
+
+\noindent (b) Using the dataset ``pres\_poll\_data\_hw5.csv'' (note: this is an updated data set from HW 3), use a $t$-based approach to compare the voter gap (clinton-trump) comparing the LA Times to NBC News.  Perform a hypothesis test and calculate the related confidence interval.  Feel free to use R's canned \texttt{t.test} function to do the calculations for you, but make sure you report/highlight the important results.
+
+\vspace{0.1in}
+
+\noindent (c) Use the Bonferroni correction to adjust the p-value and confidence interval in part (b) (assuming you looked at all the possible pairwise $t$-tests in part (a)).  Have your conclusions changed?
+
+
+\vspace{0.1in}
+
+\noindent (d) Use the Tukey approach to adjust the p-value and confidence interval in part (b) (assuming you looked at all the possible pairwise $t$-tests in part (a)).  How does this compare to the Bonferroni correction?  Which correction is more appropriate?
+
+\vspace{0.3in}
+
+
+
+
+
+
+\noindent {\bf Problem 5.} For the presidential polling data set, an investigator was interested to see if the polls have varied by month.  The following table of summary statistics was created in R:
+\begin{center}
+	\begin{tabular}{lccc}
+		\hline
+		Month & $n$ & Sample mean ($\bar{x}$) &  Sample SD ($s$) \\
+		\hline
+July   &   32 & 3.031 & 4.468 \\
+August  &  25 & 6.240 & 3.153 \\
+September & 35 & 2.886 & 3.394 \\
+October &  25 & 6.280 & 3.824 \\
+		\hline
+	\end{tabular}
+\end{center}
+
+
+\noindent (a) Use the table of summary statistics to fill out the ANOVA table (as seen on slide 16 in Unit 9).
+
+\vspace{0.1in}
+
+\noindent (b) Fit an ANOVA model for these data in R using voter gap as the response/dependent variable (you'll have to create it yourself) and month as the grouping/predictor variable.  Perform a formal hypothesis test to determine whether voter gap is different across the 4 months (you do not have to calculate anything by hand, just pull off the appropriate values from the  output).  Include the ANOVA table from R.  
+
+\vspace{0.1in}
+
+\noindent (c) Use an appropriate Type I error adjustment method to compare the 4 groups pairwise via confidence intervals.  Based on these intervals, where do any significant differences lie?  (You can get R to do the work for you, but make sure you know how to do these calculations by hand). 
+
+\vspace{0.1in}
+
+\noindent (d) Is there statistical evidence that the voter gap has changed in the month of October compared to the other 3 months combined (possibly due to the debates or all the recent news about Trump)?  Perform a reasonable contrast test to make this determination.
+
+\vspace{0.1in}
+
+\noindent (e) The investigator wants to determine whether the voter gap is related to pollster (to see if there is polling bias in some of the polls) while adjusting for the month the poll was taken.  Calculate the twoway ANOVA to predict voter gap from pollster and month (without an interaction term) to investigate the hypothesis above.  Include the R output ANOVA table for this model.
+
+\vspace{0.1in}
+
+\noindent (f) Calculate the twoway ANOVA with an interaction term between month and pollster (i.e. use the full factorial ANOVA model).  Include the R output ANOVA table for this model.
+
+\vspace{0.1in}
+
+\noindent (g) Prepare a plot (or multiple plots) in R to illustrate the ANOVA results in parts (b), (e), and (f).
+
+\vspace{0.1in}
+
+\noindent (h) Summarize the major conclusions from these analyses in 4-6 sentences.  Be sure to discuss the investigator's hypotheses.  Also be sure to mention the significance of the interaction term, what you notice in the plots, and what in the plots supports whether or not the interaction was significant?
+
+
+\vspace{0.2in}
+
+
+\end{document}

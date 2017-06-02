@@ -1,0 +1,64 @@
+Shifts
+wabbawabbawoo|
+abbawabbawoo|w
+bbawabbawoo|wa
+bawabbawoo|wab
+awabbawoo|wabb
+wabbawoo|wabba
+abbawoo|wabbaw
+bbawoo|wabbawa
+bawoo|wabbawab
+awoo|wabbawabb
+woo|wabbawabba
+oo|wabbawabbaw
+o|wabbawabbawo
+|wabbawabbawoo
+Sorted Shifts
+abbawabbawoo|w
+abbawoo|wabbaw
+awabbawoo|wabb
+awoo|wabbawabb
+bawabbawoo|wab
+bawoo|wabbawab
+bbawabbawoo|wa
+bbawoo|wabbawa
+oo|wabbawabbaw
+o|wabbawabbawo
+wabbawabbawoo|
+wabbawoo|wabba
+woo|wabbawabba
+|wabbawabbawoo
+Last Column
+wwbbbbaawo|aao
+10
+First Column
+aaaabbbboowww|
+['a', 'b', 'o', 'w', '|'] [3]
+['w', 'a', 'b', 'o', '|'] [3, 0]
+['w', 'a', 'b', 'o', '|'] [3, 0, 2]
+['b', 'w', 'a', 'o', '|'] [3, 0, 2, 0]
+['b', 'w', 'a', 'o', '|'] [3, 0, 2, 0, 0]
+['b', 'w', 'a', 'o', '|'] [3, 0, 2, 0, 0, 0]
+['b', 'w', 'a', 'o', '|'] [3, 0, 2, 0, 0, 0, 2]
+['a', 'b', 'w', 'o', '|'] [3, 0, 2, 0, 0, 0, 2, 0]
+['a', 'b', 'w', 'o', '|'] [3, 0, 2, 0, 0, 0, 2, 0, 2]
+['w', 'a', 'b', 'o', '|'] [3, 0, 2, 0, 0, 0, 2, 0, 2, 3]
+['o', 'w', 'a', 'b', '|'] [3, 0, 2, 0, 0, 0, 2, 0, 2, 3, 4]
+['|', 'o', 'w', 'a', 'b'] [3, 0, 2, 0, 0, 0, 2, 0, 2, 3, 4, 3]
+['a', '|', 'o', 'w', 'b'] [3, 0, 2, 0, 0, 0, 2, 0, 2, 3, 4, 3, 0]
+['a', '|', 'o', 'w', 'b'] [3, 0, 2, 0, 0, 0, 2, 0, 2, 3, 4, 3, 0, 2]
+Pairs
+wa
+wa
+ba
+ba
+bb
+bb
+ab
+ab
+wo
+oo
+|w
+aw
+aw
+o|

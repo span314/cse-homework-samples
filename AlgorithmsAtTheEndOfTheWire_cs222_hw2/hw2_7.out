@@ -1,0 +1,163 @@
+Add character a
+S: a
+Add character a
+S: aa
+Add character c
+S: aac
+Add character t
+S: aact
+Add character g
+S: aactg
+Add character a
+S: aactga
+Add character a
+S: aactgaa
+Enforce digram uniqueness for aa
+S: ActgA, A: aa
+Add character c
+S: ActgAc, A: aa
+Enforce digram uniqueness for Ac
+S: BtgB, A: aa, B: Ac
+Enforce rule utility for A
+S: BtgB, B: aac
+Add character a
+S: BtgBa, B: aac
+Add character t
+S: BtgBat, B: aac
+Add character g
+S: BtgBatg, B: aac
+Enforce digram uniqueness for tg
+S: BCBaC, B: aac, C: tg
+Add character a
+S: BCBaCa, B: aac, C: tg
+Add character g
+S: BCBaCag, B: aac, C: tg
+Add character a
+S: BCBaCaga, B: aac, C: tg
+Add character g
+S: BCBaCagag, B: aac, C: tg
+Enforce digram uniqueness for ag
+S: BCBaCDD, B: aac, C: tg, D: ag
+Add character a
+S: BCBaCDDa, B: aac, C: tg, D: ag
+Add character c
+S: BCBaCDDac, B: aac, C: tg, D: ag
+Enforce digram uniqueness for ac
+S: BCBaCDDE, B: aE, C: tg, D: ag, E: ac
+Add character a
+S: BCBaCDDEa, B: aE, C: tg, D: ag, E: ac
+Add character t
+S: BCBaCDDEat, B: aE, C: tg, D: ag, E: ac
+Add character a
+S: BCBaCDDEata, B: aE, C: tg, D: ag, E: ac
+Add character g
+S: BCBaCDDEatag, B: aE, C: tg, D: ag, E: ac
+Enforce digram uniqueness for ag
+S: BCBaCDDEatD, B: aE, C: tg, D: ag, E: ac
+Add character a
+S: BCBaCDDEatDa, B: aE, C: tg, D: ag, E: ac
+Add character g
+S: BCBaCDDEatDag, B: aE, C: tg, D: ag, E: ac
+Enforce digram uniqueness for ag
+S: BCBaCDDEatDD, B: aE, C: tg, D: ag, E: ac
+Enforce digram uniqueness for DD
+S: BCBaCFEatF, B: aE, C: tg, D: ag, E: ac, F: DD
+Add character a
+S: BCBaCFEatFa, B: aE, C: tg, D: ag, E: ac, F: DD
+Add character c
+S: BCBaCFEatFac, B: aE, C: tg, D: ag, E: ac, F: DD
+Enforce digram uniqueness for ac
+S: BCBaCFEatFE, B: aE, C: tg, D: ag, E: ac, F: DD
+Enforce digram uniqueness for FE
+S: BCBaCGatG, B: aE, C: tg, D: ag, E: ac, F: DD, G: FE
+Enforce rule utility for F
+S: BCBaCGatG, B: aE, C: tg, D: ag, E: ac, G: DDE
+Add character a
+S: BCBaCGatGa, B: aE, C: tg, D: ag, E: ac, G: DDE
+Enforce digram uniqueness for Ga
+S: BCBaCHtH, B: aE, C: tg, D: ag, E: ac, G: DDE, H: Ga
+Enforce rule utility for G
+S: BCBaCHtH, B: aE, C: tg, D: ag, E: ac, H: DDEa
+Add character g
+S: BCBaCHtHg, B: aE, C: tg, D: ag, E: ac, H: DDEa
+
+Add character g
+S: g
+Add character a
+S: ga
+Add character c
+S: gac
+Add character a
+S: gaca
+Add character g
+S: gacag
+Add character a
+S: gacaga
+Enforce digram uniqueness for ga
+S: AcaA, A: ga
+Add character g
+S: AcaAg, A: ga
+Add character a
+S: AcaAga, A: ga
+Enforce digram uniqueness for ga
+S: AcaAA, A: ga
+Add character t
+S: AcaAAt, A: ga
+Add character a
+S: AcaAAta, A: ga
+Add character c
+S: AcaAAtac, A: ga
+Add character a
+S: AcaAAtaca, A: ga
+Enforce digram uniqueness for ca
+S: ABAAtaB, A: ga, B: ca
+Add character g
+S: ABAAtaBg, A: ga, B: ca
+Add character a
+S: ABAAtaBga, A: ga, B: ca
+Enforce digram uniqueness for ga
+S: ABAAtaBA, A: ga, B: ca
+Enforce digram uniqueness for BA
+S: ACAtaC, A: ga, B: ca, C: BA
+Enforce rule utility for B
+S: ACAtaC, A: ga, C: caA
+Add character g
+S: ACAtaCg, A: ga, C: caA
+Add character a
+S: ACAtaCga, A: ga, C: caA
+Enforce digram uniqueness for ga
+S: ACAtaCA, A: ga, C: caA
+Enforce digram uniqueness for CA
+S: ADtaD, A: ga, C: caA, D: CA
+Enforce rule utility for C
+S: ADtaD, A: ga, D: caAA
+Add character g
+S: ADtaDg, A: ga, D: caAA
+Add character t
+S: ADtaDgt, A: ga, D: caAA
+Add character a
+S: ADtaDgta, A: ga, D: caAA
+Enforce digram uniqueness for ta
+S: ADEDgE, A: ga, D: caAA, E: ta
+Add character c
+S: ADEDgEc, A: ga, D: caAA, E: ta
+Add character a
+S: ADEDgEca, A: ga, D: caAA, E: ta
+Enforce digram uniqueness for ca
+S: ADEDgEF, A: ga, D: FAA, E: ta, F: ca
+Add character a
+S: ADEDgEFa, A: ga, D: FAA, E: ta, F: ca
+Add character g
+S: ADEDgEFag, A: ga, D: FAA, E: ta, F: ca
+Add character t
+S: ADEDgEFagt, A: ga, D: FAA, E: ta, F: ca
+Add character c
+S: ADEDgEFagtc, A: ga, D: FAA, E: ta, F: ca
+Add character a
+S: ADEDgEFagtca, A: ga, D: FAA, E: ta, F: ca
+Enforce digram uniqueness for ca
+S: ADEDgEFagtF, A: ga, D: FAA, E: ta, F: ca
+Add character a
+S: ADEDgEFagtFa, A: ga, D: FAA, E: ta, F: ca
+Enforce digram uniqueness for Fa
+S: ADEDgEGgtG, A: ga, D: FAA, E: ta, F: ca, G: Fa

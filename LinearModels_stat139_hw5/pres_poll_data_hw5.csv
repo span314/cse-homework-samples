@@ -1,0 +1,118 @@
+,poll,date,month,samplesize,likely_registered,marginoferror,trump,clinton
+1,Quinnipiac,10/17 - 10/18,10-Oct,1007,1,13,44,50
+2,IBD/TIPP Tracking,10/13 - 10/18,10-Oct,782,1,18,41,44
+3,Economist/YouGov,10/15 - 10/18,10-Oct,925,2,21,43,47
+4,IBD/TIPP Tracking,10/14 - 10/19,10-Oct,779,1,18,41,43
+5,FOX News,10/15 - 10/17,10-Oct,912,1,12,42,49
+6,LA Times/USC,10/13 - 10/19,10-Oct,3050,1,25,44,44
+7,LA Times/USC,10/12 - 10/18,10-Oct,3019,1,25,44,44
+8,Bloomberg,10/14 - 10/17,10-Oct,1006,1,13,41,50
+9,Reuters/Ipsos,10/13 - 10/17,10-Oct,1190,1,15,39,43
+10,Monmouth,10/14 - 10/16,10-Oct,726,1,18,41,53
+11,CBS News/NY Times,10/12 - 10/16,10-Oct,1189,1,12,40,51
+12,NBC News/Wall St. Jrnl,10/10 - 10/16,10-Oct,24804,1,2,43,51
+13,ABC News/Wash Post,10/10 - 10/13,10-Oct,740,1,22,46,50
+14,NBC News/Wall St. Jrnl,10/10 - 10/13,10-Oct,905,1,15,41,51
+15,FOX News,10/10 - 10/12,10-Oct,917,1,12,41,49
+16,NBC News/Wall St. Jrnl,10/8 - 10/10,10-Oct,806,1,17,40,50
+17,Reuters/Ipsos,10/6 - 10/10,10-Oct,2363,1,7,37,44
+18,NBC News/Wall St. Jrnl,10/8 - 10/9,10-Oct,447,1,26,38,52
+19,LA Times/USC,10/7 - 10/13,10-Oct,2879,1,25,44,44
+20,Economist/YouGov,10/7 - 10/8,10-Oct,971,2,24,43,48
+21,Other,10/5 - 10/9,10-Oct,886,1,21,38,49
+22,Quinnipiac,10/5 - 10/6,10-Oct,1064,1,12,44,50
+23,NBC News/Wall St. Jrnl,10/3 - 10/9,10-Oct,23329,1,2,44,51
+24,FOX News,10/3 - 10/6,10-Oct,896,1,12,44,48
+25,Economist/YouGov,10/1 - 10/3,10-Oct,911,2,21,43,48
+26,Reuters/Ipsos,9/29 - 10/3,9-Sep,1239,1,14,37,44
+27,Other,9/28 - 10/2,9-Sep,609,1,1,41,47
+28,CBS News/NY Times,9/28 - 10/2,9-Sep,1217,1,22,43,49
+29,CNN/ORC,9/28 - 10/2,9-Sep,1213,1,12,45,51
+30,LA Times/USC,9/27 - 10/3,9-Sep,2275,1,25,47,43
+31,FOX News,9/27 - 9/29,9-Sep,911,1,12,44,49
+32,NBC News/Wall St. Jrnl,9/26 - 10/2,9-Sep,26925,1,2,44,50
+33,PPP (D),9/27 - 9/28,9-Sep,933,1,14,45,49
+34,Gravis,9/27 - 9/27,9-Sep,3386,2,6,50,50
+35,Reuters/Ipsos,9/22 - 9/26,9-Sep,1041,1,17,38,44
+36,Quinnipiac,9/22 - 9/25,9-Sep,1115,1,11,46,47
+37,Bloomberg,9/21 - 9/24,9-Sep,1002,1,13,46,46
+38,Monmouth,9/22 - 9/25,9-Sep,729,1,18,46,49
+39,Economist/YouGov,9/22 - 9/24,9-Sep,948,2,20,44,48
+40,LA Times/USC,9/20 - 9/26,9-Sep,2726,1,25,46,43
+41,NBC News/Wall St. Jrnl,9/19 - 9/25,9-Sep,13598,1,3,44,51
+42,ABC News/Wash Post,9/19 - 9/22,9-Sep,651,1,25,47,49
+43,Economist/YouGov,9/18 - 9/19,9-Sep,936,2,22,44,45
+44,Reuters/Ipsos,9/15 - 9/19,9-Sep,1111,1,16,39,39
+45,McClatchy/Marist,9/15 - 9/20,9-Sep,758,1,18,41,48
+46,NBC News/Wall St. Jrnl,9/16 - 9/19,9-Sep,922,1,14,41,48
+47,Other,9/15 - 9/16,9-Sep,1251,1,1,44,50
+48,LA Times/USC,9/13 - 9/19,9-Sep,2524,1,25,47,42
+49,NBC News/Wall St. Jrnl,9/12 - 9/18,9-Sep,13320,1,4,45,50
+50,FOX News,9/11 - 9/14,9-Sep,867,1,12,46,45
+51,CBS News/NY Times,9/9 - 9/13,9-Sep,1433,1,12,44,46
+52,Economist/YouGov,9/10 - 9/13,9-Sep,926,2,22,44,46
+53,Quinnipiac,9/8 - 9/13,9-Sep,960,1,14,43,48
+54,Reuters/Ipsos,9/8 - 9/12,9-Sep,1127,1,15,39,40
+55,LA Times/USC,9/5 - 9/11,9-Sep,2596,1,25,44,44
+56,NBC News/Wall St. Jrnl,9/5 - 9/11,9-Sep,16220,2,3,44,48
+57,ABC News/Wash Post,9/5 - 9/8,9-Sep,642,1,25,43,51
+58,Economist/YouGov,9/4 - 9/6,9-Sep,955,2,27,42,44
+59,Reuters/Ipsos,9/1 - 9/5,9-Sep,1084,1,17,38,40
+60,CNN/ORC,9/1 - 9/4,9-Sep,786,1,17,49,48
+61,NBC News/Wall St. Jrnl,8/29 - 9/4,8-Aug,32226,2,2,42,48
+62,IBD/TIPP Tracking,8/26 - 9/1,8-Aug,861,1,16,43,44
+63,FOX News,8/28 - 8/30,8-Aug,1011,2,12,42,48
+64,PPP (D),8/26 - 8/28,8-Aug,881,1,15,43,48
+65,Economist/YouGov,8/27 - 8/29,8-Aug,1119,2,22,42,47
+66,Reuters/Ipsos,8/25 - 8/29,8-Aug,1404,1,12,39,40
+67,Monmouth,8/25 - 8/28,8-Aug,689,1,19,42,49
+68,Other,8/24 - 8/29,8-Aug,1000,1,12,41,48
+69,NBC News/Wall St. Jrnl,8/22 - 8/28,8-Aug,24104,2,2,42,48
+70,LA Times/USC,8/22 - 8/28,8-Aug,2460,1,25,44,44
+71,Reuters/Ipsos,8/20 - 8/24,8-Aug,1049,1,17,35,42
+72,Economist/YouGov,8/19 - 8/23,8-Aug,906,2,23,44,47
+73,Quinnipiac,8/18 - 8/24,8-Aug,1498,1,8,41,51
+74,NBC News/Wall St. Jrnl,8/15 - 8/21,8-Aug,17459,2,3,42,50
+75,Reuters/Ipsos,8/13 - 8/17,8-Aug,1049,1,17,36,41
+76,Economist/YouGov,8/14 - 8/16,8-Aug,911,2,24,41,47
+77,Gravis,8/15 - 8/15,8-Aug,1143,2,11,46,54
+78,NBC News/Wall St. Jrnl,8/8 - 8/14,8-Aug,15179,2,4,41,50
+79,LA Times/USC,8/6 - 8/12,8-Aug,2325,1,1,42,46
+80,Reuters/Ipsos,8/6 - 8/10,8-Aug,974,1,17,36,42
+81,Economist/YouGov,8/6 - 8/9,8-Aug,911,2,24,41,48
+82,Bloomberg,8/5 - 8/8,8-Aug,749,1,18,44,50
+83,ABC News/Wash Post,8/1 - 8/4,8-Aug,815,2,22,42,50
+84,LA Times/USC,7/30 - 8/5,7-Jul,2175,1,1,44,45
+85,IBD/TIPP Tracking,7/29 - 8/4,7-Jul,851,2,16,39,46
+86,McClatchy/Marist,8/1 - 8/3,8-Aug,983,2,13,33,48
+87,NBC News/Wall St. Jrnl,7/31 - 8/3,7-Jul,800,2,17,38,47
+88,NBC News/Wall St. Jrnl,8/1 - 8/7,8-Aug,11480,2,4,41,51
+89,FOX News,7/31 - 8/2,7-Jul,1022,2,12,39,49
+90,Economist/YouGov,7/30 - 8/1,7-Jul,933,2,23,43,46
+91,CBS News/NY Times,7/29 - 7/31,7-Jul,1131,2,12,41,47
+92,Reuters/Ipsos,7/30 - 8/3,7-Jul,1072,1,17,39,43
+93,CNN/ORC,7/29 - 7/31,7-Jul,894,2,17,43,52
+94,NBC News/Wall St. Jrnl,7/25 - 7/31,7-Jul,12742,2,4,42,50
+95,PPP (D),7/29 - 7/30,7-Jul,1276,1,9,45,50
+96,Reuters/Ipsos,7/25 - 7/29,7-Jul,1050,1,17,35,40
+97,Rasmussen Reports,7/26 - 7/27,7-Jul,1000,1,12,42,43
+98,Economist/YouGov,7/23 - 7/24,7-Jul,1057,2,25,42,47
+99,CNN/ORC,7/22 - 7/24,7-Jul,882,2,17,48,45
+100,LA Times/USC,7/20 - 7/26,7-Jul,2150,1,1,47,40
+101,CBS News/NY Times,7/22 - 7/24,7-Jul,1118,2,22,44,43
+102,NBC News/Wall St. Jrnl,7/18 - 7/24,7-Jul,12931,2,4,45,46
+103,Gravis,7/21 - 7/22,7-Jul,3462,2,6,51,49
+104,Rasmussen Reports,7/18 - 7/19,7-Jul,1000,1,12,43,42
+105,Reuters/Ipsos,7/16 - 7/20,7-Jul,1232,2,14,36,40
+106,Economist/YouGov,7/15 - 7/17,7-Jul,925,2,25,41,45
+107,NBC News/Wall St. Jrnl,7/11 - 7/17,7-Jul,9436,2,5,45,46
+108,CNN/ORC,7/13 - 7/16,7-Jul,872,2,17,42,49
+109,ABC News/Wash Post,7/11 - 7/14,7-Jul,816,2,22,43,47
+110,Rasmussen Reports,7/12 - 7/13,7-Jul,1000,1,12,44,37
+111,NBC News/Wall St. Jrnl,7/9 - 7/13,7-Jul,1000,2,13,41,46
+112,CBS News/NY Times,7/8 - 7/12,7-Jul,1358,2,12,40,40
+113,Economist/YouGov,7/9 - 7/11,7-Jul,932,2,25,43,45
+114,McClatchy/Marist,7/5 - 7/9,7-Jul,1053,2,12,39,42
+115,Rasmussen Reports,7/5 - 7/5,7-Jul,1000,1,12,42,40
+116,Reuters/Ipsos,7/2 - 7/6,7-Jul,1345,2,10,33,44
+117,Economist/YouGov,7/2 - 7/4,7-Jul,1004,2,22,42,47
